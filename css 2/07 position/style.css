@@ -1,0 +1,61 @@
+div{
+  position: relative;
+  background-color: brown;
+  /* top: 5px; */
+  inset: 4px;
+
+}
+/* top botoom ek sath nai leta top hi bada hai aur right aur left mai right ko leta hai */
+/* ek sath top bottom aur left right set karne ke liye inset use karte aur static mai  no change*/
+body{
+  /* position:relative; */
+
+}
+ul{
+  background-color: burlywood;
+  position: relative;
+  height: 300px;
+  /* overflow-y: scroll; */
+  margin-top: 25px;
+}
+.css{
+  position: absolute;
+  background-color: aquamarine;
+  top: 50px;
+  left: 5px;
+  /* iska top aur left relative to html port */
+  /* inset: 10px; */
+  /* agar sab properties(top,bottom etc) dalege toh phel jayega */
+  /* agar hum iske parent ko static position na kar ge toh  iska top aur left relative to parent hoga ya phir grand parent relative hoga*/
+}
+/* .javascript{
+  position: fixed;
+  background-color: rgb(240, 137, 12);
+  top: 5px;
+  left: 5px; */
+
+/* } */
+
+/* .h{ */
+  /* position: sticky; */
+  /* top: 25px; */
+/*  */
+/* } */
+/* sticky is same as relative but it parent should have the certain  height and scrol bar then it will move
+parent ke bahar nahi jaiga
+agar ham parent ko sroll bar nahi dalege toh woh apne html port se relative hota hai   */
+main{
+  overflow-y: scroll;
+
+}
+header{
+  background-color: burlywood;
+  position: sticky;
+  top: 0;
+}
+/* 1.position by default is static(top,left ,right ,bottom kuch kaam nai karta)
+2.relative position mai top botoom ek sath nai leta top hi impotant hai aur right aur left mai right hi important hai .agra aap ko sab properties ek sath lagna hai toh inset use karna chahiye
+3.absolute position mai width delete hoti hai par content zinda rehta hai aur iska top view port se leta hai isme left aur right dete hai toh dono apply hote aur backgroud color badta hai and same for inset
+4.absolute ka parent static hona chahiye agar na ho toh woh uske parent ke left right top bottom lega .nahi toh woh grand parent ke sath rehga(grand parent nahi toh view port)
+5.fixed position is same as absolute but always with viewport
+6.sticky position  parent ko nahi chodta par property lagne ke liye scrolbar aur height chaiche uske parent par*/

@@ -1,0 +1,67 @@
+main{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-color: brown;
+  /* background-image:url(https://images.unsplash.com/photo-1721332149267-ef9b10eaacd9?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 12px 12px;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 255, 255);
+  /* alpha channel for a transparant karega */
+  /* opacity: 0.5; */
+  /* yah bhi transparent karega */
+  /* yah  sab transparent karega text bhi */
+  /* transform: scale(1.5); */
+  /* transform scale mean seeing in magnifine glass from center */
+  /* transform-origin: 0 0; */
+  /* this means we magnifine from any point  */
+  /* transform: rotate(45deg); */
+  /* transform: translateX(100px); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 0px 5px rgba(136, 136, 136, 9) s;
+  /* transition: translate 500ms;  */
+
+}
+.box:hover{
+  background-color: blueviolet;
+  transform: translate(100%, -50%)
+   /*rotate(45deg) scale(1.5); */
+}
+h1{
+  /* text-shadow: 2px 2px #ff0000; */
+color: red;
+}
+/* 1.transform scale is lens which is used above box to see it bigger but its height and width is not change(it will not push)
+2. transform origin is used for to magnifies the box from any point 
+3.opacity is used to tranparnt the backgropund color (rgb become to rgba) a is alpha  channel
+4.if we give opacity to the back ground then only background is transparent if give opacity propety then it will transparent the whole things
+5.transform rotate rorate karta hai
+6.transform translateX and translateY it is margin but not the same as margin but it will not push the element it will overlap aur agr hum usku 100% dete hai toh apni height aur weight ke utha side hota hai in x or y direction mai
+7.center ke liye
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  agar hamko parent ke center mai lana ho toh hum uske parent ko relative property denge
+ 8. box-shadow: 10px 10px 0px 5px rgba(136, 136, 136, 9);
+  box shadow is property which give showdox and it have 4 values 
+  10px for shawdow in x direction
+  10px for shawdow in y direction
+  0px is blur radius
+  5px spred radius
+  same for text shadow
+  9. background property
+  background size
+  background repeat
+  background position
+  we should not use only background only
+  10.hower pe transition property
+*/

@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+}
+
+
+span{
+background-color:lightcoral;
+display: inline-block;
+width: 60px;
+height: 60px;
+border: 5px solid;
+margin: 20px;
+padding: 25px;
+
+}
+/* 1.inline element pe width nahi lagti lekin jitna text ka width utna inline element ka width(same for height) 
+2. inline ka koi shape nai rahta hai 
+3.paddimg can be applied but it overflow to other elements(same for border and margin)
+4.padding margin border in inline eleement mai sirf  right and left oush karte hai nai toh chad jate hai
+5.we can change the element with the help of display property
+it has inline ,block,inline block-> it is block but it will be in same line
+6.replaced inline element-->img,video tag,iframe,(width,height,padding,border,margin set hogi)[it  is like a inline block]
+7.Non replaced inline element-->bold span a tag
+8.we can apply diplay none also*/

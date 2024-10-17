@@ -1,0 +1,22 @@
+.parent{
+  /* width: 50%; */
+  height: 400px;
+  padding: 10px;
+}
+.one{
+  background-color: aquamarine;
+  /* max-width: 500px; */
+  /* width: 50%; */
+  min-height: 100px;
+  word-break: break-all;
+  height: 50%;
+}
+.two{
+  background-color: brown;
+}
+/* 1.hamko width nahi dena chahiye par hamko max width set karna chahiye isse scroll bar nahi aata
+2.same for the height we should write min height for avoiding overflow 
+3. word break to break the words
+4.50% width useke parent se leta hai
+5. 50% height jab kaam karti hai jab jap uske parent ke paas ku px height ho 
+6. padding give space to contant */

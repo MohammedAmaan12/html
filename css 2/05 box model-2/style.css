@@ -1,0 +1,50 @@
+
+*{
+  box-sizing: border-box;
+}
+.parent{
+  /* background-color: aqua; */
+}
+.one{
+  background-color: aquamarine;
+  /* max-width: 500px; */
+  color: blue;
+  width: 300px;
+  padding: 25px;
+  margin: 40px;
+  border: 10px solid teal;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-image: linear-gradient(red, yellow);
+  
+}
+.two{
+  background-color:aliceblue;
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  border: 10px solid;
+  border-radius: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+  outline: 20px solid green;
+  background-image: linear-gradient(red, yellow);
+
+}
+body{
+  margin: 0px;
+}
+img{
+  width: 100%;
+}
+/* 1. padding se space badti hai par padding is included in content
+2. border give border to content and it give same border as font and we change it
+3.content padding border is equal to width
+4.box sizing border box include karta content ko padding ko  border ko aur content ki size ghati ja rahi hai 
+5. jab content 0 hota jab woh badta hai
+6. * for all  
+7. margin space deti durse element se lekin yah width mai include nahi hoti hai aur todhe element mai by default margin rehti hai
+8. border radius it round the corner
+50% it make circle if it is square
+9.margin mai negative de sakte hai
+10. we can give outline it does not effect width  */

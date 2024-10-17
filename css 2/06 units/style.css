@@ -1,0 +1,93 @@
+/* body{ */
+  /* width :500px; */
+/* height: 500px; */
+/* padding: 10px; */
+/* margin: 10px; */
+/* background-color1: blue;} */
+
+/* section{ */
+/* background-color: blueviolet; */
+  /* height: 50%; */
+  /* padding: 10%; */
+  /* margin: 10%; */
+
+/* } */
+/* .box{ */
+  /* background-color: brown; */
+  /* height: 50%; */
+  /* padding: 10%; */
+  /* margin: 10%; */
+  /* border: 10px solid; */
+  /* font-size: 200%; */
+/* } */
+/* atleast ek toh pixel mai rehna height */
+/* padding bhi apni parents ase ata hai */
+/* same for the margin */
+/* border ke liye only pixle */
+/* agar  hum fontsize set karne ke baad woh 6px ke niche jata nai toh nai jata  */
+:root{
+  font-size: 32px;
+}
+body{
+margin: 0;
+}
+section{
+  background-color: aqua;
+  width: 50vw;
+  padding: 10vw;
+  margin: 10vw;
+  border: 1vw solid green;
+  font-size: 2em;
+}
+.box{
+background-color: brown;
+/* padding: 24px; */
+/* box-sizing: border-box; */
+width: 5em;
+font-size: 2em;
+padding: 1em;
+
+/* width: 10vw; */
+
+}
+
+/* padding margin border sab mai vh vw lagte hai */
+/* em apna font size dekhta hai aur use karta hai */
+/*  font size baap ka font se nikalta hai*/
+/* rem apne html ka font size dekhta hai */
+
+
+/* 1.in percentage width is taken from parent(not for height)
+2.atleast ek toh parent ki height px mai hona chahiye
+3.margin,padding aur width apne parent ke width ka leta hai(in percentage)
+4. border mai px use karte hai
+5.font size bhi apne parent ka font size dekhte hai(in percentage)
+6.kabhi kabhi fontsize 6px ke niche jata nai(in percentage) doubt hai
+7.vw-->viewport width it is taken from web 
+8.vh-->viewport height it is taken from web 
+9.padding margin border sab mai vh vw lagte hai
+10.font size parent ka size lete hai
+11.1em=16px and em is the fontsize of the parent
+if a parent fontsize is 32px then if his child fontsize is 2em then it is 2*32=64px acccording to the fontsize width padding is calculated
+12.1rem=16px it will see the root font-size (root is main part) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
