@@ -1,0 +1,41 @@
+li{
+  font-size: 32px;
+}
+.html{
+  color: #DD4B25;
+}
+.css{
+  color:blue;
+}
+.js{
+  color:rgb(239,216,29);
+}
+.rs{
+  color: red;
+}
+.njs{
+  color: red;
+}
+#html{
+  font-weight: 600;
+}
+[amaan]{
+  background-color: aqua;
+}
+[amaan="123"]{
+  background-color:rgb(62, 131, 192);
+}
+[pop] p {
+  background-color: crimson
+}
+h1:hover{
+  color: orangered;
+  
+}
+.html:hover{
+  color: red;
+}
+/* element selector normal 
+class selector uses . 
+id selector uses #
+attribute selector []*/

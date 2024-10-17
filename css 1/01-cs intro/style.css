@@ -1,0 +1,14 @@
+div{
+  color: green;
+  font-size: 24px;
+  font-weight: 700;
+   text-decoration: wavy ;
+   font-family: sans-serif;
+   text-align: center;
+   font-style: italic;
+   /* properties of css */
+}
+a{
+  text-decoration: none;
+   /* removing line from the a tag */
+}

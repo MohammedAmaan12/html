@@ -1,0 +1,30 @@
+/* #html#html#html#html#html#html#html#html{
+  background-color: deeppink;
+}
+#html{
+  background-color: deeppink;
+}
+.html{
+  background-color: blue;
+}
+li{
+  font-weight: 700;
+  background-color: red;
+}
+li{
+  font-weight: 400;
+  background-color: brown;
+  }
+.html{
+  background-color: blueviolet;
+} */
+ /* inheritance */
+body {
+  color: brown;
+  font-style: italic;
+ }
+ /* niche wali ki importance zayda hoti hai par woh dusri property ku affect nahi karti hai (cascade rule)
+ specificity 
+ element selector specifity is 0,0,1
+ class selector specifity is 0,1,0
+ id selector specifity 1,0,0  */
