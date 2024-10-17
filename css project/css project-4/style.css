@@ -1,0 +1,45 @@
+body{
+  color: white;
+  margin: 0;
+  font-family: cursive;
+}
+.hashtag-header{
+  background-color: #065FD4;
+  padding: 4rem;
+  background-image:url(/background.png);
+  background-size: 260px;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: -160px;
+  vertical-align: middle;
+  /* very important */
+
+}
+h1{
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 4em;
+}
+span{
+  font-size: 1em;
+}
+div img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  border: solid white 2px;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  vertical-align: middle;
+
+}
+img{
+  margin-right: -1rem;
+}
+.imagecantainer{
+  display: inline-flex;
+  justify-items: flex-end;
+  flex-direction: row-reverse;
+  display: inline-flex;
+  vertical-align: middle;
+}
