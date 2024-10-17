@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  padding: 10px;
+  /* border: 4px solid indianred; */
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* justify-content: center; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: baseline; */
+  /* align-items: stretch; */
+}
+
+.parent span {
+  /* border: 4px solid cadetblue; */
+  background-color: cadetblue;
+  /* flex-shrink: 0; */
+  /* width: 200px; */
+  /* height: 300px; */
+  /* flex-grow: 1; */
+}
+
+.parent p {
+  /* border: 4px solid darkkhaki; */
+  background-color: darkkhaki;
+  margin: 0;
+  width: 400px;
+  /* width: max-content; */
+  /* width: min-content; */
+  /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+}
+
+.parent a {
+  /* border: 4px solid yellowgreen; */
+  background-color: yellowgreen;
+  width: 400px;
+  height: 150px;
+  /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+}
+/* 1. max content ek property jo pure content ku ek line me lata aur width padta( min contant largest word in contant utni iski width karta aur aur height contant se leta)
+2.jab bhi displaybox karte hai toh woh inline block mai hojata hai aur block block hi rehta hai aur ham isku  width and height de sakte hai 
+3.jispe ham flex lagate hai uske direct child pe hi yah propety lagti hai
+4.flex element ki width fixed nahi rehti change hoti hai aur sab element same percent width kaam hoti hai agar viewport ghataya toh
+5.flex element ki kuch width na ho toh woh content ke hisab se content length leta hai(max contant liye toh utna width leta contant length) 
+6.flex property
+i.flex-shrink :the flex element will not shink(parent pe kaam nahi karta)it is zero or one (like min-width)
+ii.flex-grow : khali jaka lelo flexgrow 1 raha to ek hissa agar flexgrow 2 raha toh do hissa
+aga do 1 dege toh equal width milegi
+iii.justify align center (center the tag), justify align spacebetween give space between flex elemeent which is extra at the corner,space around give space bw element and half at the corner, space evenly foe equal space at corner and bw the element
+iv.align item flex start (normal height jitini hai utni), flex end(niche ake touch hoga),strech(strech hoga uske pakent ke height tak),center
+poperty ko dekh kar gana hai agar parent ki height view port ke utti hi nahi hai toh usme center nahi hoga
+v.  flex-direction: row-reverse; reverse kare ga element ko
+                   row normal
+                   column uppar se niche(column mai height change hoti aur row mai width change hoti hai
+                   column reverse niche se uppar
+
+ */

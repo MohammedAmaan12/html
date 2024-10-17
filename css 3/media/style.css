@@ -1,0 +1,28 @@
+.square{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border: 25px solid blue;
+  /* print-color-adjust: exact; */
+}
+@media (max-width:700px){
+  .square{
+    border: 25px solid red;
+  }
+}
+/* @media (500px<=width<=700px){
+  .square{
+    border: 25px solid red;
+  }
+} */
+/*1. thre are only two types of media print media and screen media
+2.print-color-adjust: exact; is used to print background in firefox
+3.-web-kit-print-color-adjust: exact; all broswer it is removed
+4.@media have three type
+print,screen,all
+5.media features like
+orientation-->potrait,landscape (not used)
+width laga sakte comparision operators lag ke(new thing)
+nai toph phele maxwidth aur minwidth aisa use hota hai(smae for min and height)
+to combine both types and feature we need and operator in between
+*/

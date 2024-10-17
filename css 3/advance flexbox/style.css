@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  /* padding: 10px; */
+  border: 4px solid indianred;
+  height: 400px;
+  display: inline-flex;
+  /* align-items: flex-end; */
+  /* align-content: center; */
+  /* align-items: baseline; */
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* flex-wrap: wrap; */
+  /* row-gap: 16px; */
+  gap: 16px;
+  /* flex-basis: 400px; */
+  /* justify-content: center; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: baseline; */
+  /* align-items: stretch; */
+}
+
+.parent span {
+  /* border: 4px solid cadetblue; */
+  background-color: cadetblue;
+  /* flex-basis: 50%; */
+  /* flex-shrink: 0; */
+  /* width: 200px; */
+  /* height: 300px; */
+  /* flex-grow: 1; */
+  /* order: 1; */
+
+}
+
+.parent p {
+  /* border: 4px solid darkkhaki; */
+  background-color: darkkhaki;
+  margin: 0;
+  /* width: 400px; */
+  /* width: max-content; */
+  /* width: min-content; */
+  /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+
+}
+
+.parent a {
+  /* border: 4px solid yellowgreen; */
+  background-color: yellowgreen;
+  /* width: 100px; */
+  /* height: 100px; */
+  /* align-self: center; */
+  /* height: 150px; */
+  /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+}
+/* .parent > * {
+  width: 100px; 
+  flex-shrink: 0; 
+  
+
+} */
+/* .parent > * + *{
+   margin-left: 16px; 
+} */
+/* 1.agar ham width 100% width dege toh pure element same width lege
+2.flex basis: is propety which is used to give width when it is in row direction if it is in column direction then it will effect then it will effect height(height should have parent height in px)
+flex basis grow hota magar height nahi hota 
+3.  .parent > * {
+  width: 100px;
+  flex-shrink: 0;
+}
+ 4.flex wrap is parent propety yah shrink nahi hota aur overflow bhi nahi hota  
+ 5.gap property give gap between element there are 2 types row gap and column gap if there is no gap property then we use margin (gap use karo accha rehta margin mai wrap nahi chalta
+ 6. margin auto
+ margin left auto kare toh woh right side chipak jata hai(same for right) [agar flex display na ho toh bhi yah use karega par top or bottom ke liye hame use karna padega] may be may not be
+ margin auto center karta hai
+ margin block top bottom hai
+ margin inline left right hai
+ margin inline ko aese bhi use karte hai magin 0 32px
+ margin top right bootom left
+ margin top [right left] bottom
+ margin inlne de bhatar hai jap auto dena hai
+ margin left right de ge toh woh element center hoga apni bachi space mai
+ magin inlne de ge element pe toh center hoga apni bachi space mai
+ 7.order ek property mai sab ka order zero rehta agar ham use zayda de ge toh zero wale order pehle show hoge fir one wale(minus mai bhi de sakte hai)
+ 8.align self it is same as align item but it use in element such start==auto,end,center==margin block auto
+ margin inline auto biche mai karta tha apni bachi hui jagha leke
+ margin block center karta apni block mai  
+ 9.flex grow grow karta
+ 10.flex:1 2 3
+ 1-->flex-basis 
+ 2-->flex-grow 
+ 3-->flex-shrink
+ isko use nahi kare toh accha hai kuki yah flex basis ko 0% karta 
+ 11.align item baseline kare toh line mai aate
+ align item baseline vs flex start 
+ agar ek element ki fontsize zyda hai toh baseline mai biche se use hota magr flex start pura oppur se hota
+ 12.align contant center ans align item center are same if there are singli line if it have multiple line then it will applied aur yeh contant ko center mai lata hai
+ 13 mdn ka definetion
+ main axis how element are kept
+ cross axis opposite to it 
+ */

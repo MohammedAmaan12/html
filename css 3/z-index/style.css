@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: -100px;
+}
+.container1{
+  background-color: hotpink;
+  box-shadow: 0 5px 16px;
+  margin-left: 2rem;
+  position: relative;
+}
+.container2{
+  background-color:cadetblue;
+  box-shadow: 0 5px 16px;
+  margin-left: 2rem;
+  position: relative;
+
+}
+.red-box {
+  background-color: red;
+  position: relative;
+
+
+}
+
+.green-box {
+  background-color: green;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.blue-box {
+  background-color: blue;
+  margin-left: 3rem;
+  position: relative;
+
+}
+/* 1.html mai red sabse niche hai magar agar ham position static ke alava kuch degen toh hame red upur milega  (agr position sabe mai ho toh woh html jaisa kaam karega aur position kuch bhi ho)
+2.agr z index dege toh upur agenga aue sabka by default zero rehata hai 
+3 if there are two container then element will  ovelap with each other if the position is relative that will come first
+4.same hi baat hai ki container upur rehega toh element upur rehega*/
